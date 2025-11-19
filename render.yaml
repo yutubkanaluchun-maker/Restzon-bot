@@ -1,0 +1,10 @@
+services:
+  - type: worker
+    name: kino-bot
+    runtime: python
+    envVars:
+      BOT_TOKEN: "your_token_here"
+      ADMIN_ID: "6027928756"
+      MOVIE_CHANNEL: "-1003104037293"
+      REQUIRED_CHANNEL: "-1003104037293"
+    startCommand: "python bot.py"
